@@ -111,14 +111,14 @@
   color: $black-2;
 }
 .explanation {
-    font-size: 1.175rem;
-    font-weight: 300;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding: 30px;
-  }
-  //footer
+  font-size: 1.175rem;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 30px;
+}
+//footer
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -126,7 +126,7 @@
   padding-block: 40px;
   padding-inline: 80px;
   gap: 6rem;
-  color:$white-color;
+  color: $white-color;
   overflow: hidden;
   @include md-down {
     grid-template-columns: repeat(2, 1fr);
@@ -199,4 +199,13 @@ button {
 
 .filled-button:hover {
   background-color: $black-2;
+}
+.Copyright-text {
+  text-align: center;
+  color: $white-color !important;
+  background-color: #333333;
+  padding-block: 20px;
+  font-size: 0.8rem;
+  line-height: 14px;
+  letter-spacing: 0em;
 }
