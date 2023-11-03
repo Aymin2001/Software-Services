@@ -69,6 +69,10 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  @include md-down {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 //icon
 .triangle {
