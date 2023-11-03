@@ -37,10 +37,13 @@
   gap: 3rem;
   text-align: left;
   padding-inline: 25px;
+  
   @include lg-down {
     grid-template-columns: 1fr;
+    
   }
 }
+
 .left-section {
   display: flex;
   flex-direction: column;
