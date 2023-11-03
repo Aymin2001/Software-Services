@@ -37,10 +37,9 @@
   gap: 3rem;
   text-align: left;
   padding-inline: 25px;
-  
+
   @include lg-down {
     grid-template-columns: 1fr;
-    
   }
 }
 
@@ -55,6 +54,20 @@
   @include md-down {
     max-width: 100%;
     margin: auto;
+  }
+  @include sm-down {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+.reverse-card {
+  @include lg-down {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  @include sm-down {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 //icon
